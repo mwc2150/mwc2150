@@ -15,10 +15,10 @@
 <p align="center"><strong>Featured projects</strong></p>
 
 <p align="center">
-  <a href="https://github.com/mwc2150/PharmAgentics">PharmAgentics</a> ·
-  <a href="https://github.com/Qual2Cast/Qual2Cast">Qual2Cast</a> ·
-  <a href="https://github.com/bruno-neira/AI-Pulse">AI Pulse</a> ·
-  <a href="https://github.com/jiayi-ong/optimized-llm-planning-memory">RL for LLM planning</a>
+  <a href="https://github.com/mwc2150/PharmAgentics">PharmAgentics</a>&emsp;
+  <a href="https://github.com/Qual2Cast/Qual2Cast">Qual2Cast</a>&emsp;
+  <a href="https://github.com/bruno-neira/AI-Pulse">AI&nbsp;Pulse</a>&emsp;
+  <a href="https://github.com/jiayi-ong/optimized-llm-planning-memory">RL&nbsp;for&nbsp;LLM&nbsp;planning</a>
 </p>
 
 <p align="center"><strong>Toolbox</strong></p>
