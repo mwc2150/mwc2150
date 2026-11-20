@@ -2,6 +2,7 @@ import { cp, mkdir, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { calendarLayout, dateRangeLabel, levelColors } from '../game/calendar.mjs';
+import { retroSnakeSvg } from './retro-snake.mjs';
 
 const DAY = 86_400_000;
 const LEVELS = ['NONE', 'FIRST_QUARTILE', 'SECOND_QUARTILE', 'THIRD_QUARTILE', 'FOURTH_QUARTILE'];
@@ -98,6 +99,8 @@ async function buildGame(output, token) {
     cp(new URL('../assets/goku-fishing.webp', import.meta.url), resolve(output, 'goku-fishing.webp')),
     writeFile(resolve(output, 'calendar.json'), `${JSON.stringify(data)}\n`),
     writeFile(resolve(output, 'board.svg'), previewSvg(data)),
+    writeFile(resolve(output, 'snake.svg'), retroSnakeSvg(data, true)),
+    writeFile(resolve(output, 'snake-still.svg'), retroSnakeSvg(data, false)),
   ]);
   console.log(`Prepared the game for ${data.start} through ${data.end} (${data.days.length} days).`);
 }

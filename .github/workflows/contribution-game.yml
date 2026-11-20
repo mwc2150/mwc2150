@@ -11,6 +11,7 @@ on:
       - assets/goku-fishing.webp
       - game/**
       - scripts/build-game.mjs
+      - scripts/retro-snake.mjs
       - test/**
 
 permissions:

@@ -1,0 +1,36 @@
+import assert from 'node:assert/strict';
+import test from 'node:test';
+import { retroSnakeSvg, snakePath } from '../scripts/retro-snake.mjs';
+
+test('the snake visits every slot once, with an orthogonal move at each step', () => {
+  for (const width of [13, 14, 15]) {
+    const path = snakePath(width);
+    assert.equal(new Set(path).size, width * 7);
+    for (const [index, slot] of path.entries()) {
+      assert.ok(slot >= 0 && slot < width * 7);
+      if (index === 0) continue;
+      const previous = path[index - 1];
+      const dx = Math.abs(Math.floor(slot / 7) - Math.floor(previous / 7));
+      const dy = Math.abs(slot % 7 - previous % 7);
+      assert.equal(dx + dy, 1);
+    }
+  }
+});
+
+test('both boards show the dated squares, and only the animated board eats activity', () => {
+  const calendar = {
+    start: '2026-11-13', end: '2026-11-16', days: [
+      { date: '2026-11-13', level: 0 }, { date: '2026-11-14', level: 1 },
+      { date: '2026-11-15', level: 4 }, { date: '2026-11-16', level: 2 },
+    ],
+  };
+  const animated = retroSnakeSvg(calendar, true);
+  const still = retroSnakeSvg(calendar, false);
+  assert.equal((animated.match(/width="13" height="13"/g) ?? []).length, 4);
+  assert.equal((still.match(/width="13" height="13"/g) ?? []).length, 4);
+  assert.equal((animated.match(/attributeName="fill"/g) ?? []).length, 3);
+  assert.equal((animated.match(/<animateTransform\b/g) ?? []).length, 4);
+  assert.doesNotMatch(still, /<animate/);
+  assert.match(animated, /<text[^>]+>NOV<\/text>/);
+  assert.doesNotMatch(animated, />[^<]*Nov 13/);
+});
