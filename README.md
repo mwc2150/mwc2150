@@ -12,7 +12,7 @@
   <img src="https://mwc2150.github.io/mwc2150/snake.svg" alt="Pixel arcade snake and my last three months of GitHub contributions" width="47%" align="right">
 </picture>
 
-<p>Hello, currently I am using applied AI/ML and analytics for pharmaceutical commercial operations and private equity but I am always looking to bring my skills to new domains.<br>
+<p>Hello! I am currently using applied AI/ML and analytics within pharmaceutical commercial operations and private equity, but I am always looking to bring my skills to new domains.<br>
 Always happy to connect at <a href="mailto:mwc2150@columbia.edu">mwc2150@columbia.edu</a>.</p>
 
 <p>
