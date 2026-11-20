@@ -1,16 +1,11 @@
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/goku-fishing.webp">
-    <img src="assets/goku-fishing.gif" alt="Young Goku fishing by a mountain lake at sunset" width="100%">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/goku-nimbus.webp">
+    <img src="assets/goku-nimbus.gif" alt="Young Goku riding the Flying Nimbus over a mountain valley at sunset" width="100%">
   </picture>
 </p>
 
 <h1>About Me</h1>
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://mwc2150.github.io/mwc2150/snake-still.svg">
-  <img src="https://mwc2150.github.io/mwc2150/snake.svg" alt="Pixel arcade snake and my last three months of GitHub contributions" width="47%" align="right">
-</picture>
 
 <p>Hello! I'm currently using applied AI/ML and analytics within the realms of pharmaceutical commercial operations and private equity, but I am always looking to bring my skills to new domains.<br>
 Always happy to connect at <a href="mailto:mwc2150@columbia.edu">mwc2150@columbia.edu</a>.</p>
