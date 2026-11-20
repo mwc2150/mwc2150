@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-<h3>About Me</h3>
+<h1>About Me</h1>
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://mwc2150.github.io/mwc2150/snake-still.svg">
