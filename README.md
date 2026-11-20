@@ -21,15 +21,6 @@ Always happy to connect at <a href="mailto:mwc2150@columbia.edu">mwc2150@columbi
   📚 BA in International Relations (Global Business) at USC
 </p>
 
-<h3>Featured projects</h3>
-
-<p>
-  💊&nbsp;<a href="https://github.com/mwc2150/PharmAgentics">PharmAgentics</a>&emsp;
-  💼&nbsp;<a href="https://github.com/Qual2Cast/Qual2Cast">Qual2Cast</a><br>
-  📡&nbsp;<a href="https://github.com/bruno-neira/AI-Pulse">AI&nbsp;Pulse</a>&emsp;
-  🧠&nbsp;<a href="https://github.com/jiayi-ong/optimized-llm-planning-memory">RL&nbsp;for&nbsp;LLM&nbsp;planning</a>
-</p>
-
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/python/python-original.svg" width="34" height="34" alt="Python" title="Python">&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/jupyter/jupyter-original.svg" width="34" height="34" alt="Jupyter" title="Jupyter">&nbsp;
