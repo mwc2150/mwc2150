@@ -1,4 +1,4 @@
-import { calendarLayout } from '../game/calendar.mjs';
+import { calendarLayout } from './calendar.mjs';
 
 const COLORS = ['#223950', '#28726f', '#2fa599', '#5ad4b4', '#a5f5d5'];
 const CELL = 16;

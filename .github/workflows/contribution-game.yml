@@ -1,4 +1,4 @@
-name: Deploy Contribution Snake
+name: Publish Contribution Snake
 
 on:
   schedule:
@@ -8,10 +8,7 @@ on:
     branches: [main]
     paths:
       - .github/workflows/contribution-game.yml
-      - assets/goku-fishing.webp
-      - game/**
-      - scripts/build-game.mjs
-      - scripts/retro-snake.mjs
+      - scripts/**
       - test/**
 
 permissions:
@@ -33,8 +30,8 @@ jobs:
         with:
           node-version: '22'
       - run: node --test
-      - name: Build game and contribution board
-        run: node scripts/build-game.mjs "$RUNNER_TEMP/site"
+      - name: Build animated and still contribution boards
+        run: node scripts/build-snake.mjs "$RUNNER_TEMP/site"
         env:
           GH_TOKEN: ${{ github.token }}
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0

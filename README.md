@@ -1,15 +1,25 @@
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/goku-fishing.webp">
-  <img src="assets/goku-fishing.gif" alt="Young Goku fishing by a mountain lake at sunset" width="100%">
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/goku-fishing.webp">
+    <img src="assets/goku-fishing.gif" alt="Young Goku fishing by a mountain lake at sunset" width="100%">
+  </picture><br><picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/goku-fishing-still-fade.png">
+    <img src="assets/goku-fishing-fade.png" alt="" width="100%">
+  </picture>
+</p>
 
-<h1 align="center">Michael Chen</h1>
+<h3 align="center">About Me</h3>
 
-<p align="center">Forecasting · Commercial analytics · Applied AI</p>
+<p align="center">I use applied AI/ML and analytics for pharmaceutical commercial operations and private equity.</p>
 
 <p align="center">
-  <a href="https://mwc2150.github.io/">Portfolio</a> ·
-  <a href="https://github.com/mcschlatt">USC projects</a>
+  Master’s in Data Science at Columbia<br>
+  Former founder, Rexi Self-Care<br>
+  BA in International Relations (Global Business) at USC
+</p>
+
+<p align="center">
+  <a href="https://mwc2150.github.io/">Portfolio</a>
 </p>
 
 <p align="center"><strong>Featured projects</strong></p>
@@ -43,12 +53,11 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/javascript/javascript-original.svg" width="34" height="34" alt="JavaScript" title="JavaScript">
 </p>
 
-<p align="center">
-  <a href="https://mwc2150.github.io/mwc2150/"><strong>Play Contribution Snake</strong></a>
-</p>
+<p align="center"><strong>Contribution Snake</strong></p>
 
 <p align="center">
-  <a href="https://mwc2150.github.io/mwc2150/">
-    <img src="https://mwc2150.github.io/mwc2150/board.svg" alt="Play Snake on my last three months of GitHub contributions" width="405">
-  </a>
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="https://mwc2150.github.io/mwc2150/snake-still.svg">
+    <img src="https://mwc2150.github.io/mwc2150/snake.svg" alt="Pixel arcade snake and my last three months of GitHub contributions" width="465">
+  </picture>
 </p>
