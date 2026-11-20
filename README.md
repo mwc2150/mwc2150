@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/goku-fishing.webp">
-    <img src="assets/goku-fishing.gif" alt="Young Goku fishing by a mountain lake at sunset" width="100%">
+    <img src="assets/goku-fishing.gif" alt="Young Goku fishing by a mountain lake at sunset" width="100%" align="top">
   </picture><br><picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/goku-fishing-still-fade.png">
     <img src="assets/goku-fishing-fade.png" alt="" width="100%">
