@@ -5,36 +5,50 @@
 
 <h1 align="center">Michael Chen</h1>
 
-<p align="center">I build forecasting models and AI agents, with a focus on commercial analytics and how to evaluate their outputs.</p>
+<p align="center">Forecasting · Commercial analytics · Applied AI</p>
 
 <p align="center">
   <a href="https://mwc2150.github.io/">Portfolio</a> ·
   <a href="https://github.com/mcschlatt">USC projects</a>
 </p>
 
-## Selected projects
+<p align="center"><strong>Featured projects</strong></p>
 
-| Project | Focus |
-| --- | --- |
-| [PharmAgentics](https://github.com/mwc2150/PharmAgentics) | AI agents that explain weekly pharma brand performance and forecast changes, with each number traceable to its source. |
-| [Qual2Cast](https://github.com/Qual2Cast/Qual2Cast) | Estimates private-company valuation multiples from public information by finding comparable companies and testing the method on held-out firms. |
-| [AI Pulse](https://github.com/bruno-neira/AI-Pulse) | A visual analysis of how GPU capacity, training data, and compute spending have changed across frontier AI models. |
-| [RL for LLM planning](https://github.com/jiayi-ong/optimized-llm-planning-memory) | Tests whether a memory compressor trained with reinforcement learning helps an LLM plan trips that meet more constraints. |
+<p align="center">
+  <a href="https://github.com/mwc2150/PharmAgentics">PharmAgentics</a> ·
+  <a href="https://github.com/Qual2Cast/Qual2Cast">Qual2Cast</a> ·
+  <a href="https://github.com/bruno-neira/AI-Pulse">AI Pulse</a> ·
+  <a href="https://github.com/jiayi-ong/optimized-llm-planning-memory">RL for LLM planning</a>
+</p>
 
-## Tools I’ve used
+<p align="center"><strong>Toolbox</strong></p>
 
-| Area | Tools |
-| --- | --- |
-| Forecasting and analytics | Python, Jupyter, pandas, NumPy, SciPy, statsmodels |
-| Machine learning and agents | scikit-learn, XGBoost, PyTorch, Hugging Face Transformers, Gymnasium, Stable-Baselines3, Microsoft Agent Framework, MLflow |
-| Visualization and publishing | R, ggplot2, Quarto, Matplotlib, HTML, CSS, JavaScript |
-| Data and application engineering | SQL, DuckDB, BigQuery, Selenium, PRAW, FastAPI, Docker |
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/python/python-original.svg" width="34" height="34" alt="Python" title="Python">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/jupyter/jupyter-original.svg" width="34" height="34" alt="Jupyter" title="Jupyter">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/pandas/pandas-original.svg" width="34" height="34" alt="pandas" title="pandas">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/numpy/numpy-original.svg" width="34" height="34" alt="NumPy" title="NumPy">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/scikitlearn/scikitlearn-original.svg" width="34" height="34" alt="scikit-learn" title="scikit-learn">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/pytorch/pytorch-original.svg" width="34" height="34" alt="PyTorch" title="PyTorch">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/r/r-original.svg" width="34" height="34" alt="R" title="R">&nbsp;
+  <img src="https://cdn.simpleicons.org/quarto/75AADB" width="34" height="34" alt="Quarto" title="Quarto">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/matplotlib/matplotlib-original.svg" width="34" height="34" alt="Matplotlib" title="Matplotlib">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/duckdb/duckdb-original.svg" width="34" height="34" alt="DuckDB" title="DuckDB">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/fastapi/fastapi-original.svg" width="34" height="34" alt="FastAPI" title="FastAPI">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/docker/docker-original.svg" width="34" height="34" alt="Docker" title="Docker">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/selenium/selenium-original.svg" width="34" height="34" alt="Selenium" title="Selenium">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/googlecloud/googlecloud-original.svg" width="34" height="34" alt="Google Cloud" title="Google Cloud">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/html5/html5-original.svg" width="34" height="34" alt="HTML" title="HTML">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/css3/css3-original.svg" width="34" height="34" alt="CSS" title="CSS">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/javascript/javascript-original.svg" width="34" height="34" alt="JavaScript" title="JavaScript">
+</p>
 
-## Contribution history
+<p align="center">
+  <a href="https://mwc2150.github.io/mwc2150/"><strong>Play Contribution Snake</strong></a>
+</p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mwc2150/mwc2150/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/mwc2150/mwc2150/output/snake-light.svg" alt="An animated snake eating the squares of my GitHub contribution calendar" width="100%">
-</picture>
-
-[View my GitHub activity](https://github.com/mwc2150#contribution-activity)
+<p align="center">
+  <a href="https://mwc2150.github.io/mwc2150/">
+    <img src="https://mwc2150.github.io/mwc2150/board.svg" alt="Play Snake on my last three months of GitHub contributions" width="405">
+  </a>
+</p>
