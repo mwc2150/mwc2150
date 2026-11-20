@@ -21,7 +21,7 @@ Always happy to connect at <a href="mailto:mwc2150@columbia.edu">mwc2150@columbi
   📚 BA in International Relations (Global Business) at USC
 </p>
 
-<p>Featured projects</p>
+<p>Some projects I loved doing:</p>
 
 <p>
   💊&nbsp;<a href="https://github.com/mwc2150/PharmAgentics">PharmAgentics</a>&emsp;
