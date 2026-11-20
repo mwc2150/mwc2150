@@ -12,8 +12,8 @@
 
 <h3>About Me</h3>
 
-<p>Hello! I use applied AI/ML and analytics for pharmaceutical commercial operations and private equity!<br>
-Contact me at: <a href="mailto:mwc2150@columbia.edu">mwc2150@columbia.edu</a></p>
+<p>Hello, currently I am using applied AI/ML and analytics for pharmaceutical commercial operations and private equity but I am always looking to bring my skills to new domains.<br>
+Always happy to connect at <a href="mailto:mwc2150@columbia.edu">mwc2150@columbia.edu</a>.</p>
 
 <p>
   🎓 Master’s in Data Science at Columbia<br>
@@ -30,7 +30,7 @@ Contact me at: <a href="mailto:mwc2150@columbia.edu">mwc2150@columbia.edu</a></p
   🧠&nbsp;<a href="https://github.com/jiayi-ong/optimized-llm-planning-memory">RL&nbsp;for&nbsp;LLM&nbsp;planning</a>
 </p>
 
-<p>
+<p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/python/python-original.svg" width="34" height="34" alt="Python" title="Python">&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/jupyter/jupyter-original.svg" width="34" height="34" alt="Jupyter" title="Jupyter">&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/pandas/pandas-original.svg" width="34" height="34" alt="pandas" title="pandas">&nbsp;
