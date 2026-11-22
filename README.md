@@ -14,7 +14,7 @@ Thanks for stopping by. My work lies where AI, machine learning, and analytics m
 
 I have a Master's in Data Science from Columbia and a BA in International Relations (Global Business) from USC. In 2024, I also co-founded Rexi Self-Care, a holistic wellness startup based in LA.
 
-Whether it's a role, a project in a completely new domain, or just a good conversation, I'd love to hear from you at **[mwc2150@columbia.edu](mailto:mwc2150@columbia.edu)**.
+Whether it's a role, a project in a completely new domain, or a simple coffee chat-- I'd love to hear from you at **[mwc2150@columbia.edu](mailto:mwc2150@columbia.edu)**.
 
 <br clear="right">
 
