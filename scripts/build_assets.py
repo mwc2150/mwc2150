@@ -1,13 +1,13 @@
 """Build the SVG assets used by the profile README.
 
 GitHub READMEs can't load CSS or web fonts, so section and project titles are
-drawn as SVGs with a subset of Fraunces embedded as a data URI. Body copy stays
+drawn as SVGs with a subset of EB Garamond embedded as a data URI. Body copy stays
 as real text in README.md.
 
 Usage:
     python scripts/build_assets.py
 
-Needs fontTools + brotli (pip install fonttools brotli). The Fraunces variable
+Needs fontTools + brotli (pip install fonttools brotli). The EB Garamond variable
 font is downloaded once into scripts/.cache/.
 """
 
@@ -27,8 +27,8 @@ ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
 CACHE = Path(__file__).resolve().parent / ".cache"
 
-FONT_URL = "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/Fraunces%5BSOFT,WONK,opsz,wght%5D.ttf"
-FONT_AXES = {"opsz": 48, "wght": 680, "SOFT": 100, "WONK": 0}
+FONT_URL = "https://raw.githubusercontent.com/google/fonts/main/ofl/ebgaramond/EBGaramond%5Bwght%5D.ttf"
+FONT_AXES = {"wght": 600}
 
 # Palette sampled from the Flying Nimbus GIF.
 SKY = "#1133BB"
@@ -46,9 +46,9 @@ def _instance() -> TTFont:
     global _font
     if _font is None:
         CACHE.mkdir(exist_ok=True)
-        path = CACHE / "fraunces-roman.ttf"
+        path = CACHE / "ebgaramond.ttf"
         if not path.exists():
-            print("downloading Fraunces ...")
+            print("downloading EB Garamond ...")
             urllib.request.urlretrieve(FONT_URL, path)
         _font = instancer.instantiateVariableFont(TTFont(path), FONT_AXES)
     return _font
@@ -63,7 +63,7 @@ def text_width(text: str, size: float, tracking: float = 0) -> float:
 
 
 def font_face(text: str) -> str:
-    """@font-face rule with Fraunces subset to exactly `text`, as base64 WOFF2."""
+    """@font-face rule with EB Garamond subset to exactly `text`, as base64 WOFF2."""
     buf = io.BytesIO()
     _instance().save(buf)
     buf.seek(0)
@@ -102,7 +102,7 @@ def title(text: str, size: float, ink: str, height: float, baseline: float, x: f
 # ------------------------------------------------------------------ headers
 
 def header(text: str, ink: str) -> str:
-    body, width, style = title(text, 28, ink, 46, 32)
+    body, width, style = title(text, 32, ink, 46, 33)
     return svg(width, 46, body, style, text)
 
 
@@ -145,7 +145,7 @@ ICONS = {
 def project_title(name: str, icon: str, ink: str) -> str:
     """A project's emblem tile followed by its name."""
     tile = 40
-    text, width, style = title(name, 22, ink, tile, 28, x=tile + 12)
+    text, width, style = title(name, 25, ink, tile, 28, x=tile + 12)
     emblem = (
         f'<g transform="scale({tile / 56})">'
         f'<rect width="56" height="56" rx="15" fill="{SKY}"/>'
@@ -157,7 +157,7 @@ def project_title(name: str, icon: str, ink: str) -> str:
 
 # --------------------------------------------------------------------- main
 
-HEADERS = {"about": "About", "work": "Selected work", "toolkit": "Toolkit"}
+HEADERS = {"about": "Hello, I’m Michael", "work": "Selected work", "toolkit": "Toolkit"}
 
 
 def main() -> None:

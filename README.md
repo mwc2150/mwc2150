@@ -6,17 +6,13 @@
 <h3>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/h-about-dark.svg">
-    <img src="assets/h-about-light.svg" height="46" alt="About">
+    <img src="assets/h-about-light.svg" height="46" alt="Hello, I'm Michael">
   </picture>
 </h3>
 
-I use applied AI, machine learning and analytics in pharmaceutical commercial operations and private equity, and I'm always looking to bring those skills to new domains.
+Thanks for stopping by! I work where applied AI, machine learning and analytics meet real business questions, currently in pharmaceutical commercial operations and private equity. My background is a bit of a mix: a Master's in Data Science at Columbia, a BA in International Relations (Global Business) at USC, and co-founding Rexi Self-Care. I love learning how a new field works, so I'm always excited to bring these skills somewhere new.
 
-<b>Columbia University</b>, Master's in Data Science<br>
-<b>University of Southern California</b>, BA in International Relations (Global Business)<br>
-<b>Rexi Self-Care</b>, co-founder
-
-Always happy to connect: **[mwc2150@columbia.edu](mailto:mwc2150@columbia.edu)**
+Whether it's a project, a role or just a good conversation, I'd love to hear from you at **[mwc2150@columbia.edu](mailto:mwc2150@columbia.edu)**.
 
 <br clear="right">
 
@@ -35,14 +31,6 @@ Always happy to connect: **[mwc2150@columbia.edu](mailto:mwc2150@columbia.edu)**
         <img src="assets/p-pharmagentics-light.svg" height="40" alt="PharmAgentics">
       </picture></a>
       <p>Multi-agent AI that explains what moved a pharma brand and why, with every number traced back to the data.</p>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/python/python-original.svg" width="22" height="22" alt="Python" title="Python">&nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/duckdb/duckdb-original.svg" width="22" height="22" alt="DuckDB" title="DuckDB">&nbsp;
-      <img src="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.104.0/icons/claudecode-color.svg" width="22" height="22" alt="Anthropic API" title="Anthropic API">&nbsp;
-      <img src="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.104.0/icons/gemini-color.svg" width="22" height="22" alt="Gemini" title="Gemini">&nbsp;
-      <img src="https://cdn.simpleicons.org/mlflow/0194E2" width="22" height="22" alt="MLflow" title="MLflow">&nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/fastapi/fastapi-original.svg" width="22" height="22" alt="FastAPI" title="FastAPI">&nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/docker/docker-original.svg" width="22" height="22" alt="Docker" title="Docker">&nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/googlecloud/googlecloud-original.svg" width="22" height="22" alt="Google Cloud Run" title="Google Cloud Run">
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Qual2Cast/Qual2Cast"><picture>
@@ -50,14 +38,6 @@ Always happy to connect: **[mwc2150@columbia.edu](mailto:mwc2150@columbia.edu)**
         <img src="assets/p-qual2cast-light.svg" height="40" alt="Qual2Cast">
       </picture></a>
       <p>Values private companies by matching them to public comps on LLM-extracted business traits. Columbia capstone with Rational AI.</p>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/python/python-original.svg" width="22" height="22" alt="Python" title="Python">&nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/jupyter/jupyter-original.svg" width="22" height="22" alt="Jupyter" title="Jupyter">&nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/pandas/pandas-original.svg" width="22" height="22" alt="pandas" title="pandas">&nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/pytorch/pytorch-original.svg" width="22" height="22" alt="PyTorch" title="PyTorch">&nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/huggingface/huggingface-original.svg" width="22" height="22" alt="Hugging Face Transformers" title="Hugging Face Transformers">&nbsp;
-      <img src="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.104.0/icons/claudecode-color.svg" width="22" height="22" alt="Anthropic API" title="Anthropic API">&nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/selenium/selenium-original.svg" width="22" height="22" alt="Selenium" title="Selenium">&nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/matplotlib/matplotlib-original.svg" width="22" height="22" alt="Matplotlib" title="Matplotlib">
     </td>
   </tr>
   <tr>
@@ -67,10 +47,6 @@ Always happy to connect: **[mwc2150@columbia.edu](mailto:mwc2150@columbia.edu)**
         <img src="assets/p-ai-pulse-light.svg" height="40" alt="AI Pulse">
       </picture></a>
       <p>Visual tour of the compute, data and model trends driving modern AI. <a href="https://bruno-neira.github.io/AI-Pulse/">See the site</a>.</p>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/python/python-original.svg" width="22" height="22" alt="Python" title="Python">&nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/jupyter/jupyter-original.svg" width="22" height="22" alt="Jupyter" title="Jupyter">&nbsp;
-      <img src="https://cdn.simpleicons.org/quarto/75AADB" width="22" height="22" alt="Quarto" title="Quarto">&nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/javascript/javascript-original.svg" width="22" height="22" alt="JavaScript" title="JavaScript">
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/jiayi-ong/optimized-llm-planning-memory"><picture>
@@ -78,10 +54,6 @@ Always happy to connect: **[mwc2150@columbia.edu](mailto:mwc2150@columbia.edu)**
         <img src="assets/p-rl-planning-light.svg" height="40" alt="RL for LLM planning">
       </picture></a>
       <p>A memory compressor trained with PPO to help LLM agents plan trips under hard constraints.</p>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/python/python-original.svg" width="22" height="22" alt="Python" title="Python">&nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/pytorch/pytorch-original.svg" width="22" height="22" alt="PyTorch" title="PyTorch">&nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/huggingface/huggingface-original.svg" width="22" height="22" alt="Hugging Face Transformers" title="Hugging Face Transformers">&nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/jupyter/jupyter-original.svg" width="22" height="22" alt="Jupyter" title="Jupyter">
     </td>
   </tr>
 </table>
@@ -93,75 +65,54 @@ Always happy to connect: **[mwc2150@columbia.edu](mailto:mwc2150@columbia.edu)**
   </picture>
 </h3>
 
-<p>
-  <b>Machine learning</b><br>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/python/python-original.svg" width="30" height="30" alt="Python" title="Python">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/jupyter/jupyter-original.svg" width="30" height="30" alt="Jupyter" title="Jupyter">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/pandas/pandas-original.svg" width="30" height="30" alt="pandas" title="pandas">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/numpy/numpy-original.svg" width="30" height="30" alt="NumPy" title="NumPy">&nbsp;
-  <img src="https://cdn.simpleicons.org/scipy/6C96E4" width="30" height="30" alt="SciPy" title="SciPy">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/scikitlearn/scikitlearn-original.svg" width="30" height="30" alt="scikit-learn" title="scikit-learn">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/pytorch/pytorch-original.svg" width="30" height="30" alt="PyTorch" title="PyTorch">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/tensorflow/tensorflow-original.svg" width="30" height="30" alt="TensorFlow" title="TensorFlow">&nbsp;
-  <img src="https://xgboost.ai/images/logo/xgboost-logo-trimmed.png" width="44" alt="XGBoost" title="XGBoost">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/microsoft/LightGBM@b892602e2ca4cd79dfe5439c7c35fa1b4ab61567/R-package/man/figures/logo.svg" width="30" height="30" alt="LightGBM" title="LightGBM">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/huggingface/huggingface-original.svg" width="30" height="30" alt="Hugging Face" title="Hugging Face">
-</p>
-
-<p>
-  <b>LLMs &amp; agents</b><br>
-  <img src="https://cdn.simpleicons.org/langchain/399985" width="30" height="30" alt="LangChain" title="LangChain">&nbsp;
-  <img src="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.104.0/icons/claudecode-color.svg" width="30" height="30" alt="Claude Code and Anthropic API" title="Claude Code and Anthropic API">&nbsp;
-  <img src="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.104.0/icons/gemini-color.svg" width="30" height="30" alt="Gemini" title="Gemini">&nbsp;
-  <img src="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.104.0/icons/codex-color.svg" width="30" height="30" alt="OpenAI Codex and API" title="OpenAI Codex and API">&nbsp;
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/python/python-original.svg" width="34" height="34" alt="Python" title="Python">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/jupyter/jupyter-original.svg" width="34" height="34" alt="Jupyter" title="Jupyter">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/pandas/pandas-original.svg" width="34" height="34" alt="pandas" title="pandas">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/numpy/numpy-original.svg" width="34" height="34" alt="NumPy" title="NumPy">&nbsp;
+  <img src="https://cdn.simpleicons.org/scipy/6C96E4" width="34" height="34" alt="SciPy" title="SciPy">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/seaborn/seaborn-original.svg" width="34" height="34" alt="Seaborn" title="Seaborn">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/scikitlearn/scikitlearn-original.svg" width="34" height="34" alt="scikit-learn" title="scikit-learn">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/pytorch/pytorch-original.svg" width="34" height="34" alt="PyTorch" title="PyTorch">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/tensorflow/tensorflow-original.svg" width="34" height="34" alt="TensorFlow" title="TensorFlow">&nbsp;
+  <img src="https://xgboost.ai/images/logo/xgboost-logo-trimmed.png" width="48" alt="XGBoost" title="XGBoost">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/microsoft/LightGBM@b892602e2ca4cd79dfe5439c7c35fa1b4ab61567/R-package/man/figures/logo.svg" width="34" height="34" alt="LightGBM" title="LightGBM">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/huggingface/huggingface-original.svg" width="34" height="34" alt="Hugging Face" title="Hugging Face">&nbsp;
+  <img src="https://cdn.simpleicons.org/langchain/399985" width="34" height="34" alt="LangChain" title="LangChain">&nbsp;
+  <img src="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.104.0/icons/claudecode-color.svg" width="34" height="34" alt="Claude Code and Anthropic API" title="Claude Code and Anthropic API">&nbsp;
+  <img src="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.104.0/icons/gemini-color.svg" width="34" height="34" alt="Gemini" title="Gemini">&nbsp;
+  <img src="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.104.0/icons/codex-color.svg" width="34" height="34" alt="OpenAI Codex and API" title="OpenAI Codex and API">&nbsp;
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-png@2.10.0/dark/xai.png">
-    <img src="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-png@2.10.0/light/xai.png" width="30" height="30" alt="xAI" title="xAI">
+    <img src="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-png@2.10.0/light/xai.png" width="34" height="34" alt="xAI" title="xAI">
   </picture>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons@d4b500dc40a8e1043b1581cabb7208892cf35472/svg/microsoft-copilot.svg" width="30" height="30" alt="Microsoft Copilot" title="Microsoft Copilot">
-</p>
-
-<p>
-  <b>Data &amp; cloud</b><br>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/duckdb/duckdb-original.svg" width="30" height="30" alt="DuckDB" title="DuckDB">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/postgresql/postgresql-original.svg" width="30" height="30" alt="PostgreSQL" title="PostgreSQL">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/mysql/mysql-original.svg" width="30" height="30" alt="MySQL" title="MySQL">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/apachespark/apachespark-original.svg" width="30" height="30" alt="Apache Spark (PySpark)" title="Apache Spark (PySpark)">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/hadoop/hadoop-original.svg" width="30" height="30" alt="Apache Hadoop" title="Apache Hadoop">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/googlecloud/googlecloud-original.svg" width="30" height="30" alt="Google Cloud (BigQuery and Vertex AI)" title="Google Cloud (BigQuery and Vertex AI)">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/amazonwebservices/amazonwebservices-original.svg" width="30" height="30" alt="AWS (EC2, S3, and RDS)" title="AWS (EC2, S3, and RDS)">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/docker/docker-original.svg" width="30" height="30" alt="Docker" title="Docker">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/fastapi/fastapi-original.svg" width="30" height="30" alt="FastAPI" title="FastAPI">
-</p>
-
-<p>
-  <b>R &amp; visualization</b><br>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/r/r-original.svg" width="30" height="30" alt="R" title="R">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/tidyverse/ggplot2@87a95d9103536296c8334e72f9f722855cd16bcb/man/figures/logo.png" width="30" height="30" alt="ggplot2" title="ggplot2">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/tidyverse/dplyr@819c99f7284b3a413b391c60bea49ae7bfb8bafc/man/figures/logo.png" width="30" height="30" alt="dplyr" title="dplyr">&nbsp;
-  <img src="https://cdn.simpleicons.org/quarto/75AADB" width="30" height="30" alt="Quarto" title="Quarto">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/matplotlib/matplotlib-original.svg" width="30" height="30" alt="Matplotlib" title="Matplotlib">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/seaborn/seaborn-original.svg" width="30" height="30" alt="Seaborn" title="Seaborn">
-</p>
-
-<p>
-  <b>Business &amp; BI</b><br>
-  <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons@d4b500dc40a8e1043b1581cabb7208892cf35472/svg/microsoft-excel.svg" width="30" height="30" alt="Microsoft Excel" title="Microsoft Excel">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/microsoft/PowerBI-Icons@24f1db8bdfab951c25db591772140d2f4ec5bc1e/SVG/Power-BI.svg" width="30" height="30" alt="Power BI" title="Power BI">&nbsp;
-  <img src="https://devicons.io/devicons/icons/tableau-icon.svg" width="30" height="30" alt="Tableau" title="Tableau">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/streamlit/streamlit-original.svg" width="30" height="30" alt="Streamlit" title="Streamlit">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons@d4b500dc40a8e1043b1581cabb7208892cf35472/svg/microsoft-powerpoint.svg" width="30" height="30" alt="Microsoft PowerPoint" title="Microsoft PowerPoint">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons@d4b500dc40a8e1043b1581cabb7208892cf35472/svg/microsoft-word.svg" width="30" height="30" alt="Microsoft Word" title="Microsoft Word">&nbsp;
-  <img src="https://cdn.simpleicons.org/shopify/80AD45" width="30" height="30" alt="Shopify Analytics" title="Shopify Analytics">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/figma/figma-original.svg" width="30" height="30" alt="Figma" title="Figma">
-</p>
-
-<p>
-  <b>Web &amp; tooling</b><br>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/react/react-original.svg" width="30" height="30" alt="React" title="React">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/javascript/javascript-original.svg" width="30" height="30" alt="JavaScript" title="JavaScript">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/html5/html5-original.svg" width="30" height="30" alt="HTML" title="HTML">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/css3/css3-original.svg" width="30" height="30" alt="CSS" title="CSS">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/git/git-original.svg" width="30" height="30" alt="Git" title="Git">&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/selenium/selenium-original.svg" width="30" height="30" alt="Selenium" title="Selenium">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/r/r-original.svg" width="34" height="34" alt="R" title="R">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/tidyverse/ggplot2@87a95d9103536296c8334e72f9f722855cd16bcb/man/figures/logo.png" width="34" height="34" alt="ggplot2" title="ggplot2">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/tidyverse/dplyr@819c99f7284b3a413b391c60bea49ae7bfb8bafc/man/figures/logo.png" width="34" height="34" alt="dplyr" title="dplyr">&nbsp;
+  <img src="https://cdn.simpleicons.org/quarto/75AADB" width="34" height="34" alt="Quarto" title="Quarto">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/matplotlib/matplotlib-original.svg" width="34" height="34" alt="Matplotlib" title="Matplotlib">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/duckdb/duckdb-original.svg" width="34" height="34" alt="DuckDB" title="DuckDB">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/mysql/mysql-original.svg" width="34" height="34" alt="MySQL" title="MySQL">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/postgresql/postgresql-original.svg" width="34" height="34" alt="PostgreSQL" title="PostgreSQL">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/apachespark/apachespark-original.svg" width="34" height="34" alt="Apache Spark (PySpark)" title="Apache Spark (PySpark)">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/hadoop/hadoop-original.svg" width="34" height="34" alt="Apache Hadoop" title="Apache Hadoop">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/googlecloud/googlecloud-original.svg" width="34" height="34" alt="Google Cloud (BigQuery and Vertex AI)" title="Google Cloud (BigQuery and Vertex AI)">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/amazonwebservices/amazonwebservices-original.svg" width="34" height="34" alt="AWS (EC2, S3, and RDS)" title="AWS (EC2, S3, and RDS)">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons@d4b500dc40a8e1043b1581cabb7208892cf35472/svg/microsoft-excel.svg" width="34" height="34" alt="Microsoft Excel" title="Microsoft Excel">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/microsoft/PowerBI-Icons@24f1db8bdfab951c25db591772140d2f4ec5bc1e/SVG/Power-BI.svg" width="34" height="34" alt="Power BI" title="Power BI">&nbsp;
+  <img src="https://devicons.io/devicons/icons/tableau-icon.svg" width="34" height="34" alt="Tableau" title="Tableau">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/streamlit/streamlit-original.svg" width="34" height="34" alt="Streamlit" title="Streamlit">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons@d4b500dc40a8e1043b1581cabb7208892cf35472/svg/microsoft-powerpoint.svg" width="34" height="34" alt="Microsoft PowerPoint" title="Microsoft PowerPoint">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons@d4b500dc40a8e1043b1581cabb7208892cf35472/svg/microsoft-word.svg" width="34" height="34" alt="Microsoft Word" title="Microsoft Word">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/fastapi/fastapi-original.svg" width="34" height="34" alt="FastAPI" title="FastAPI">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/docker/docker-original.svg" width="34" height="34" alt="Docker" title="Docker">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/selenium/selenium-original.svg" width="34" height="34" alt="Selenium" title="Selenium">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/git/git-original.svg" width="34" height="34" alt="Git" title="Git">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons@d4b500dc40a8e1043b1581cabb7208892cf35472/svg/microsoft-copilot.svg" width="34" height="34" alt="Microsoft Copilot" title="Microsoft Copilot">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/figma/figma-original.svg" width="34" height="34" alt="Figma" title="Figma">&nbsp;
+  <img src="https://cdn.simpleicons.org/shopify/80AD45" width="34" height="34" alt="Shopify Analytics" title="Shopify Analytics">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/react/react-original.svg" width="34" height="34" alt="React" title="React">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/html5/html5-original.svg" width="34" height="34" alt="HTML" title="HTML">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/css3/css3-original.svg" width="34" height="34" alt="CSS" title="CSS">&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/javascript/javascript-original.svg" width="34" height="34" alt="JavaScript" title="JavaScript">
 </p>
