@@ -10,7 +10,7 @@
   </picture>
 </h3>
 
-Thanks for stopping by. My work lies where AI, machine learning, and analytics meet real business questions. Right now, that's in pharmaceutical commercial operations and private equity.
+Thanks for stopping by :) My work lies where AI, machine learning, and analytics meet real business questions. Right now, that's in pharmaceutical commercial operations and private equity.
 
 I have a Master's in Data Science from Columbia and a BA in International Relations (Global Business) from USC. In 2024, I also co-founded Rexi Self-Care, a holistic wellness startup based in LA.
 
