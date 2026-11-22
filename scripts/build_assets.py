@@ -69,7 +69,8 @@ def font_face(text: str) -> str:
     buf = io.BytesIO()
     _font.save(buf)
     buf.seek(0)
-    font = TTFont(buf)
+    font = TTFont(buf, recalcTimestamp=False)
+    font["head"].modified = font["head"].created  # keep rebuilds byte-identical
     opts = subset.Options()
     opts.flavor = "woff2"
     opts.layout_features = ["kern", "liga"]
@@ -140,7 +141,7 @@ def main() -> None:
     ASSETS.mkdir(exist_ok=True)
     for theme, colors in THEMES.items():
         path = ASSETS / f"h-hello-{theme}.svg"
-        path.write_text(heading("Hello, I’m Michael", colors), encoding="utf-8", newline="\n")
+        path.write_text(heading("Hello, I’m Michael!", colors), encoding="utf-8", newline="\n")
         print(path.name)
     for slug, code, name, blurb in PROJECTS:
         for theme, colors in THEMES.items():
