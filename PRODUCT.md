@@ -23,7 +23,11 @@ Michael Chen's GitHub profile page: identity, selected projects, toolkit and con
 ## Brand Commitments
 
 - Hero GIF: young Goku on the Flying Nimbus (`assets/nimbus.gif`, from the user's chosen Pinterest pin). Its palette (sky blue, Nimbus gold) sets the page's colors.
-- The toolkit keeps every listed tool, grouped by area.
+- The GIF sits beside the About text (floated right), not as a full-width banner; no separate name/tagline card.
+- Section titles are plain Fraunces type with no ornament.
+- Selected work is a 2x2 grid of short project boxes, each with its own tool icons.
+- The toolkit keeps every listed tool, grouped by area as plain labeled rows (no table borders).
+- Rexi Self-Care: co-founder.
 
 ## Evidence on Hand
 
