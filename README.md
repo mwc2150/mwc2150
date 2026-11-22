@@ -10,9 +10,11 @@
   </picture>
 </h3>
 
-Thanks for stopping by! I work where applied AI, machine learning and analytics meet real business questions, currently in pharmaceutical commercial operations and private equity. My background is a bit of a mix: a Master's in Data Science at Columbia, a BA in International Relations (Global Business) at USC, and co-founding Rexi Self-Care. I love learning how a new field works, so I'm always excited to bring these skills somewhere new.
+Thanks for stopping by! I work where applied AI, machine learning, and analytics meet real business questions. Right now, that's pharmaceutical commercial operations and private equity.
 
-Whether it's a project, a role or just a good conversation, I'd love to hear from you at **[mwc2150@columbia.edu](mailto:mwc2150@columbia.edu)**.
+I have a Master's in Data Science from Columbia and a BA in International Relations (Global Business) from USC, and I co-founded Rexi Self-Care, a holistic wellness startup.
+
+Whether it's a project, a role, or just a good conversation, I'd love to hear from you at **[mwc2150@columbia.edu](mailto:mwc2150@columbia.edu)**.
 
 <br clear="right">
 
