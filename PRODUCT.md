@@ -16,16 +16,16 @@ Michael Chen's GitHub profile page: identity, selected projects, toolkit and con
 
 ## Capabilities and Constraints
 
-- Display type lives in SVGs built by `scripts/build_assets.py` (EB Garamond embedded as subset WOFF2; the user asked for Georgia or EB Garamond). Body copy stays real text so it reads at phone width.
+- Project buttons are SVGs built by `scripts/build_assets.py` (EB Garamond names embedded as subset WOFF2, system-font blurbs, Noto Emoji). GitHub strips `target="_blank"`, so links can't be forced into a new tab. Body copy stays real text so it reads at phone width.
 - Light/dark variants are switched with `<picture>` + `prefers-color-scheme`, which GitHub maps to the viewer's GitHub theme.
 - A standalone portfolio site is a possible later step, not yet decided.
 
 ## Brand Commitments
 
-- Hero GIF: young Goku on the Flying Nimbus (`assets/nimbus.gif`, from the user's chosen Pinterest pin). Its palette (sky blue, Nimbus gold) sets the page's colors.
+- Hero GIF: young Goku on the Flying Nimbus (`assets/nimbus.gif`, from the user's chosen Pinterest pin). The page itself does not borrow the GIF's blue/gold; buttons use GitHub's neutral surface colors.
 - The GIF sits beside the About text (floated right), not as a full-width banner; no separate name/tagline card.
-- Section titles are plain serif type with no ornament. The page opens with "Hello, I'm Michael" and a warm, first-person intro.
-- Selected work is a 2x2 grid of short project boxes (title and one sentence, no tool icons).
+- The only title is the "Hello, I'm Michael" greeting (EB Garamond, neutral ink); no other section titles. Warm, first-person intro below it.
+- Projects are link buttons (original emoji 💊 💼 📡 🧠, name, one-line blurb), two per row, stacking on phones.
 - The toolkit is the original single centered strip of icons, ungrouped.
 - Education and Rexi Self-Care (co-founded) are woven into the intro prose, not listed as separate title lines.
 

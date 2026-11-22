@@ -5,67 +5,25 @@
 
 <h3>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/h-about-dark.svg">
-    <img src="assets/h-about-light.svg" height="46" alt="Hello, I'm Michael">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/h-hello-dark.svg">
+    <img src="assets/h-hello-light.svg" height="46" alt="Hello, I'm Michael">
   </picture>
 </h3>
 
-Thanks for stopping by! I work where applied AI, machine learning, and analytics meet real business questions. Right now, that's pharmaceutical commercial operations and private equity.
+Thanks for stopping by! I work where applied AI, machine learning, and analytics meet real business questions. Right now, that's in pharmaceutical commercial operations and private equity.
 
-I have a Master's in Data Science from Columbia and a BA in International Relations (Global Business) from USC, and I co-founded Rexi Self-Care, a holistic wellness startup.
+I have a Master's in Data Science from Columbia and a BA in International Relations (Global Business) from USC, and in 2024, I co-founded Rexi Self-Care, a holistic wellness startup.
 
-Whether it's a project, a role, or just a good conversation, I'd love to hear from you at **[mwc2150@columbia.edu](mailto:mwc2150@columbia.edu)**.
+Whether it's a role, a project in a completely new domain, or just a good conversation, I'd love to hear from you at **[mwc2150@columbia.edu](mailto:mwc2150@columbia.edu)**.
 
 <br clear="right">
 
-<h3>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/h-work-dark.svg">
-    <img src="assets/h-work-light.svg" height="46" alt="Selected work">
-  </picture>
-</h3>
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/mwc2150/PharmAgentics"><picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/p-pharmagentics-dark.svg">
-        <img src="assets/p-pharmagentics-light.svg" height="40" alt="PharmAgentics">
-      </picture></a>
-      <p>Multi-agent AI that explains what moved a pharma brand and why, with every number traced back to the data.</p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Qual2Cast/Qual2Cast"><picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/p-qual2cast-dark.svg">
-        <img src="assets/p-qual2cast-light.svg" height="40" alt="Qual2Cast">
-      </picture></a>
-      <p>Values private companies by matching them to public comps on LLM-extracted business traits. Columbia capstone with Rational AI.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/bruno-neira/AI-Pulse"><picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/p-ai-pulse-dark.svg">
-        <img src="assets/p-ai-pulse-light.svg" height="40" alt="AI Pulse">
-      </picture></a>
-      <p>Visual tour of the compute, data and model trends driving modern AI. <a href="https://bruno-neira.github.io/AI-Pulse/">See the site</a>.</p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/jiayi-ong/optimized-llm-planning-memory"><picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/p-rl-planning-dark.svg">
-        <img src="assets/p-rl-planning-light.svg" height="40" alt="RL for LLM planning">
-      </picture></a>
-      <p>A memory compressor trained with PPO to help LLM agents plan trips under hard constraints.</p>
-    </td>
-  </tr>
-</table>
-
-<h3>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/h-toolkit-dark.svg">
-    <img src="assets/h-toolkit-light.svg" height="46" alt="Toolkit">
-  </picture>
-</h3>
+<p align="center">
+  <a href="https://github.com/mwc2150/PharmAgentics"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-pharmagentics-dark.svg"><img src="assets/btn-pharmagentics-light.svg" width="400" height="84" alt="PharmAgentics: multi-agent AI for pharma brand performance"></picture></a>
+  <a href="https://github.com/Qual2Cast/Qual2Cast"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-qual2cast-dark.svg"><img src="assets/btn-qual2cast-light.svg" width="400" height="84" alt="Qual2Cast: valuing private companies via public comps"></picture></a>
+  <a href="https://github.com/bruno-neira/AI-Pulse"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-ai-pulse-dark.svg"><img src="assets/btn-ai-pulse-light.svg" width="400" height="84" alt="AI Pulse: compute, data and model trends behind AI"></picture></a>
+  <a href="https://github.com/jiayi-ong/optimized-llm-planning-memory"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-rl-planning-dark.svg"><img src="assets/btn-rl-planning-light.svg" width="400" height="84" alt="RL for LLM planning: PPO-trained memory for LLM planning agents"></picture></a>
+</p>
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/python/python-original.svg" width="34" height="34" alt="Python" title="Python">&nbsp;
