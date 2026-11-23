@@ -6,8 +6,9 @@
   repo in README.md. No names or blurbs are shown, so the pick is a small
   mystery; the README gives each emoji a title, so hovering shows its name.
 - Two bands of tool icons above and below the picker, scrolling in opposite
-  directions. Each band is one SVG with the icons embedded (an SVG shown as an
-  image can't load outside files), so add or remove a tool in TOOLS and rebuild.
+  directions. Each band is one SVG with the icons pre-rendered into a single
+  embedded bitmap strip (an SVG shown as an image can't load outside files, and
+  one bitmap animates smoothly), so add or remove a tool in TOOLS and rebuild.
 
 Every SVG comes in a light and a dark variant (switched by <picture> in the
 README). Fonts are embedded as subset WOFF2 data URIs because SVGs shown as
@@ -18,8 +19,9 @@ GitHub plays in <img>; it stops under prefers-reduced-motion.
 Usage:
     python scripts/build_assets.py
 
-Needs fontTools + brotli (pip install fonttools brotli). Fonts and emoji are
-downloaded once into scripts/.cache/.
+Needs fontTools, brotli, Pillow and resvg-py
+(pip install fonttools brotli pillow resvg-py). Fonts, emoji and tool icons
+are downloaded once into scripts/.cache/.
 """
 
 from __future__ import annotations
@@ -29,15 +31,16 @@ import hashlib
 import io
 import math
 import re
-import struct
 import urllib.request
 import xml.dom.minidom
 from pathlib import Path
 from xml.sax.saxutils import escape
 
+import resvg_py
 from fontTools import subset
 from fontTools.ttLib import TTFont
 from fontTools.varLib import instancer
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
@@ -125,7 +128,7 @@ BAND_H = 52
 ICON = 32  # icon height; wide logos get up to twice that in width
 ICON_GAP = 18
 BAND_MAX_W = 1280  # widest box we cover without a gap in the loop
-BAND_SPEED = 26  # px per second
+BAND_SPEED = 20  # px per second
 
 # The greeting, one entry per line. Its SVG is hello-*.svg; rename it when the
 # text changes, or GitHub's image cache keeps showing the old one for a while.
@@ -290,38 +293,49 @@ def tool_icon(url: str) -> tuple[str, bytes]:
     return ("image/png" if data.startswith(b"\x89PNG") else "image/svg+xml"), data
 
 
-def aspect(ctype: str, data: bytes) -> float:
-    """Width / height of an icon."""
+def icon_raster(url: str, box_h: int) -> Image.Image:
+    """A tool icon as an RGBA bitmap `box_h` px tall (wide logos up to twice that wide)."""
+    ctype, data = tool_icon(url)
     if ctype == "image/png":
-        w, h = struct.unpack(">II", data[16:24])
-        return w / h
-    text = data.decode("utf-8", "ignore")
-    vb = re.search(r'viewBox="\s*[-\d.]+[\s,]+[-\d.]+[\s,]+([\d.]+)[\s,]+([\d.]+)', text)
-    if vb:
-        return float(vb.group(1)) / float(vb.group(2))
-    w, h = re.search(r'\swidth="([\d.]+)', text), re.search(r'\sheight="([\d.]+)', text)
-    return float(w.group(1)) / float(h.group(1)) if w and h else 1.0
+        img = Image.open(io.BytesIO(data)).convert("RGBA")
+    else:
+        # Render large, then scale down, for clean edges.
+        img = Image.open(io.BytesIO(bytes(resvg_py.svg_to_bytes(svg_string=data.decode("utf-8"), height=box_h * 4))))
+        img = img.convert("RGBA")
+    # Keep each icon's own padding, so they match how the icon sets size them.
+    scale = min(box_h / img.height, box_h * 2 / img.width)
+    return img.resize((max(1, round(img.width * scale)), max(1, round(img.height * scale))), Image.LANCZOS)
 
 
 def band(tools: list[tuple], theme: str, direction: int) -> str:
-    """A strip of tool icons drifting left (direction -1) or right (+1) forever."""
-    images, x = [], 0.0
-    for tool in tools:
-        url = tool[2] if theme == "dark" and len(tool) > 2 else tool[1]
-        ctype, data = tool_icon(url)
-        w = min(max(ICON * aspect(ctype, data), ICON), ICON * 2)
-        uri = f"data:{ctype};base64,{base64.b64encode(data).decode()}"
-        images.append(f'<image x="{x:.1f}" y="{(BAND_H - ICON) / 2:g}" width="{w:.1f}" height="{ICON}" href="{uri}"/>')
-        x += w + ICON_GAP
-    strip = x  # one full cycle; copies follow end to end
+    """A strip of tool icons drifting left (direction -1) or right (+1) forever.
+
+    The icons are pre-rendered into one bitmap strip. Animating a single image is
+    cheap; animating dozens of embedded vector logos made browsers drop frames.
+    """
+    scale = 2  # bitmap resolution, for sharp icons on high-DPI screens
+    icons = [icon_raster(t[2] if theme == "dark" and len(t) > 2 else t[1], ICON * scale) for t in tools]
+    slots = [max(ICON, math.ceil(i.width / scale)) for i in icons]  # 1x width of each icon's slot
+    strip = sum(slots) + ICON_GAP * len(slots)  # one full cycle, in whole px so copies tile cleanly
+    sheet = Image.new("RGBA", (strip * scale, ICON * scale), (0, 0, 0, 0))
+    x = 0
+    for img, slot in zip(icons, slots):
+        sheet.paste(img, (x * scale + (slot * scale - img.width) // 2, (ICON * scale - img.height) // 2), img)
+        x += slot + ICON_GAP
+    buf = io.BytesIO()
+    sheet.save(buf, "PNG", optimize=True)
+    png = base64.b64encode(buf.getvalue()).decode()
+
     frm, to = (0, -strip) if direction < 0 else (-strip, 0)
     style = (
-        f"@keyframes m{{from{{transform:translateX({frm:.1f}px)}}to{{transform:translateX({to:.1f}px)}}}}"
+        f"@keyframes m{{from{{transform:translateX({frm}px)}}to{{transform:translateX({to}px)}}}}"
         f".m{{animation:m {strip / BAND_SPEED:.1f}s linear infinite}}"
         "@media (prefers-reduced-motion:reduce){.m{animation:none}}"
     )
-    copies = "".join(f'<use href="#s" x="{strip * k:.1f}"/>' for k in range(math.ceil(BAND_MAX_W / strip) + 1))
-    # Icons drift in and out through a soft fade at both ends.
+    y = (BAND_H - ICON) // 2
+    copies = "".join(f'<use href="#s" x="{strip * k}"/>' for k in range(math.ceil(BAND_MAX_W / strip) + 1))
+    # Icons drift in and out through a short fade at both ends. A mask (not a
+    # page-colored overlay) so it works on every GitHub theme, dimmed included.
     fade = (
         '<linearGradient id="fg"><stop offset="0" stop-color="#000"/><stop offset=".06" stop-color="#fff"/>'
         '<stop offset=".94" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>'
@@ -331,7 +345,7 @@ def band(tools: list[tuple], theme: str, direction: int) -> str:
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" role="img" '
         f'aria-label="{label}"><title>{label}</title><style>{style}</style>'
-        f'<defs>{fade}<g id="s">{"".join(images)}</g></defs>'
+        f'<defs>{fade}<image id="s" y="{y}" width="{strip}" height="{ICON}" href="data:image/png;base64,{png}"/></defs>'
         f'<g mask="url(#f)"><g class="m">{copies}</g></g></svg>\n'
     )
 
