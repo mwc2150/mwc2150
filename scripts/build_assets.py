@@ -1,6 +1,6 @@
 """Build the SVGs used by the profile README.
 
-- The greeting, set in EB Garamond SemiBold.
+- The greeting, set in EB Garamond SemiBold on two lines.
 - The project picker: a "Pick an emoji, any emoji ;)" prompt in EB Garamond
   Italic, then four bare floating emoji, one per project, each linked to its
   repo in README.md. No names or blurbs are shown, so the pick is a small
@@ -127,6 +127,10 @@ ICON_GAP = 18
 BAND_MAX_W = 1280  # widest box we cover without a gap in the loop
 BAND_SPEED = 26  # px per second
 
+# The greeting, one entry per line. Its SVG is hello-*.svg; rename it when the
+# text changes, or GitHub's image cache keeps showing the old one for a while.
+GREETING = ["Hello, I’m Michael.", "Thanks for stopping by!"]
+
 # GitHub's own text colors, so everything sits natively in either theme.
 THEMES = {
     "light": {"ink": "#1f2328", "muted": "#59636e", "shadow": "#1f2328", "shadow_op": 0.24},
@@ -206,9 +210,30 @@ def line(kind: str, text: str, size: float, height: int, baseline: float, tracki
     )
 
 
-def heading(text: str, t: dict) -> str:
-    """The opening greeting."""
-    return line("heading", text, 32, 46, 33, -32 / 50, t["ink"])
+HEADING_LEADING = 40  # px between heading baselines
+
+
+def heading_height(lines: list[str]) -> int:
+    return 46 + HEADING_LEADING * (len(lines) - 1)
+
+
+def heading(lines: list[str], t: dict) -> str:
+    """The opening greeting, one <text> per line so it stays narrow beside the GIF."""
+    size, tracking = 32, -32 / 50
+    width = max(text_width("heading", s, size, tracking) for s in lines) + 6
+    height = heading_height(lines)
+    label = escape(" ".join(lines), {'"': "&quot;"})
+    style = font_face("heading", "".join(lines)) + (
+        ".t{font-family:'G',Georgia,serif;font-size:%gpx;letter-spacing:%gpx;fill:%s}" % (size, tracking, t["ink"])
+    )
+    texts = "".join(
+        f'<text class="t" x="1" y="{33 + HEADING_LEADING * i}">{escape(s)}</text>' for i, s in enumerate(lines)
+    )
+    return (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width:.0f}" height="{height}" '
+        f'viewBox="0 0 {width:.0f} {height}" role="img" aria-label="{label}"><title>{label}</title>'
+        f"<style>{style}</style>{texts}</svg>\n"
+    )
 
 
 def prompt(text: str, t: dict) -> str:
@@ -321,7 +346,7 @@ def write(name: str, text: str) -> None:
 def main() -> None:
     ASSETS.mkdir(exist_ok=True)
     for theme, t in THEMES.items():
-        write(f"heading-{theme}.svg", heading("Hello, I’m Michael!", t))
+        write(f"hello-{theme}.svg", heading(GREETING, t))
         write(f"cta-{theme}.svg", prompt("Pick an emoji, any emoji ;)", t))
         for slug, code, name, period, delay, lift, tilt in PROJECTS:
             write(f"float-{slug}-{theme}.svg", floater(code, name, period, delay, lift, tilt, t))
