@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/nimbus-still.webp">
-  <img src="assets/nimbus.gif" align="right" width="44%" alt="Young Goku riding the Flying Nimbus, looping through a deep blue sky">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/fistbump-still.webp">
+  <img src="assets/fistbump.gif" align="right" width="44%" alt="Young Goku and Krillin grinning at each other as they bump fists">
 </picture>
 
 <h3>

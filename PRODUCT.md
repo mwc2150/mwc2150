@@ -22,7 +22,7 @@ Michael Chen's GitHub profile page: identity, selected projects, toolkit and con
 
 ## Brand Commitments
 
-- Hero GIF: young Goku on the Flying Nimbus (`assets/nimbus.gif`, from the user's chosen Pinterest pin). The page itself does not borrow the GIF's blue/gold; the picker uses GitHub's neutral text colors, and the floating emoji echo the Nimbus.
+- Hero GIF: young Goku and Krillin bumping fists (`assets/fistbump.gif`, from the user's chosen Pinterest pin). The page itself does not borrow the GIF's colors; the picker uses GitHub's neutral text colors.
 - The GIF sits beside the About text (floated right), not as a full-width banner; no separate name/tagline card.
 - The only title is the "Hello, I'm Michael. / Thanks for stopping by!" greeting (EB Garamond, neutral ink, two lines so it fits beside the GIF); no other section titles. Warm, first-person intro below it.
 - Projects are a mystery pick: a muted italic "Pick an emoji, any emoji ;)" (a nod to "pick a card, any card", with the wink here rather than in the greeting) over four bare floating emoji (💊 💼 📡 🧠), each linked to its repo, with no names, subtitles or boxes. The owner found the old name-plus-blurb buttons too AI-looking. Alt and `title` name each project, so hovering shows the name as the browser's native tooltip (the only hover effect a README allows; none on phones). No spoiler list.
