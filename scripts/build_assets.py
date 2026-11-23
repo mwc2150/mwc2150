@@ -49,7 +49,7 @@ CACHE = Path(__file__).resolve().parent / ".cache"
 FONTS_URL = "https://raw.githubusercontent.com/google/fonts/main/ofl/ebgaramond/"
 # name -> (cache file, URL, weight, italic)
 FONTS = {
-    "heading": ("ebgaramond.ttf", FONTS_URL + "EBGaramond%5Bwght%5D.ttf", 600, False),
+    "heading": ("ebgaramond-italic.ttf", FONTS_URL + "EBGaramond-Italic%5Bwght%5D.ttf", 600, True),
     "prompt": ("ebgaramond-italic.ttf", FONTS_URL + "EBGaramond-Italic%5Bwght%5D.ttf", 500, True),
 }
 EMOJI_URL = "https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.047/svg/emoji_u{code}.svg"
@@ -130,9 +130,9 @@ ICON_GAP = 18
 BAND_MAX_W = 1280  # widest box we cover without a gap in the loop
 BAND_SPEED = 20  # px per second
 
-# The greeting, one entry per line. Its SVG is hello-*.svg; rename it when the
+# The greeting, one entry per line. Its SVG is hi-*.svg; rename it when the
 # text changes, or GitHub's image cache keeps showing the old one for a while.
-GREETING = ["Hello, I’m Michael.", "Thanks for stopping by!"]
+GREETING = ["Hi, I’m Michael.", "Thanks for stopping by!"]
 
 # GitHub's own text colors, so everything sits natively in either theme.
 THEMES = {
@@ -223,14 +223,15 @@ def heading_height(lines: list[str]) -> int:
 def heading(lines: list[str], t: dict) -> str:
     """The opening greeting, one <text> per line so it stays narrow beside the GIF."""
     size, tracking = 32, -32 / 50
-    width = max(text_width("heading", s, size, tracking) for s in lines) + 6
+    width = max(text_width("heading", s, size, tracking) for s in lines) + 8  # room for italic overhang
     height = heading_height(lines)
     label = escape(" ".join(lines), {'"': "&quot;"})
     style = font_face("heading", "".join(lines)) + (
-        ".t{font-family:'G',Georgia,serif;font-size:%gpx;letter-spacing:%gpx;fill:%s}" % (size, tracking, t["ink"])
+        ".t{font-family:'G',Georgia,serif;font-style:italic;font-size:%gpx;letter-spacing:%gpx;fill:%s}"
+        % (size, tracking, t["ink"])
     )
     texts = "".join(
-        f'<text class="t" x="1" y="{33 + HEADING_LEADING * i}">{escape(s)}</text>' for i, s in enumerate(lines)
+        f'<text class="t" x="2" y="{33 + HEADING_LEADING * i}">{escape(s)}</text>' for i, s in enumerate(lines)
     )
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width:.0f}" height="{height}" '
@@ -240,8 +241,8 @@ def heading(lines: list[str], t: dict) -> str:
 
 
 def prompt(text: str, t: dict) -> str:
-    """The picker's one line of copy: italic and muted, quieter than the greeting."""
-    return line("prompt", text, 24, 34, 24, -24 / 100, t["muted"])
+    """The picker's one line of copy: italic, in the full text color."""
+    return line("prompt", text, 24, 34, 24, -24 / 100, t["ink"])
 
 
 def emoji_data(code: str) -> str:
@@ -360,7 +361,7 @@ def write(name: str, text: str) -> None:
 def main() -> None:
     ASSETS.mkdir(exist_ok=True)
     for theme, t in THEMES.items():
-        write(f"hello-{theme}.svg", heading(GREETING, t))
+        write(f"hi-{theme}.svg", heading(GREETING, t))
         write(f"cta-{theme}.svg", prompt("Pick an emoji, any emoji ;)", t))
         for slug, code, name, period, delay, lift, tilt in PROJECTS:
             write(f"float-{slug}-{theme}.svg", floater(code, name, period, delay, lift, tilt, t))
