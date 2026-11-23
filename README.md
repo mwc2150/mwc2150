@@ -10,7 +10,7 @@
   </picture>
 </h3>
 
-Right now, I'm working on data science applications for private equity and pharmaceutical commercial operations. I have a Master's in Data Science from Columbia and a BA in International Relations (Global Business) from USC. In 2024, I also co-founded Rexi Self-Care, a holistic wellness startup based in LA.
+Right now, I'm working on data science applications for private equity and pharmaceutical commercial operations. I'm currently pursuing a Master's in Data Science from Columbia and have a BA in International Relations (Global Business) from USC. During 2024, I co-founded a LA-based holistic wellness startup called Rexi Self-Care.
 
 Whether it's a new role, a project in a wildly different domain, or just a simple chat-- I'd love to hear from you at **[mwc2150@columbia.edu](mailto:mwc2150@columbia.edu)**.
 
