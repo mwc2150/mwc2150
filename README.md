@@ -17,7 +17,7 @@ Whether it's a new role, a project in a wildly different domain, or a just simpl
 <br clear="right">
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/tools-top-dark.svg"><img src="assets/tools-top-light.svg" width="100%" height="52" alt="Tools I work with: Python, Jupyter, pandas, NumPy, SciPy, Seaborn, scikit-learn, PyTorch, TensorFlow, XGBoost, LightGBM, Hugging Face, LangChain, Claude Code and Anthropic API, Gemini, OpenAI Codex and API, xAI, R, ggplot2, dplyr, Quarto, Matplotlib, DuckDB"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/band-top-dark.svg"><img src="assets/band-top-light.svg" width="100%" height="52" alt="Tools I work with: Python, Jupyter, pandas, NumPy, SciPy, Seaborn, scikit-learn, PyTorch, TensorFlow, XGBoost, LightGBM, Hugging Face, LangChain, Claude Code and Anthropic API, Gemini, OpenAI Codex and API, xAI, R, ggplot2, dplyr, Quarto, Matplotlib, DuckDB"></picture>
 </p>
 
 <p align="center">
@@ -27,5 +27,5 @@ Whether it's a new role, a project in a wildly different domain, or a just simpl
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/tools-bottom-dark.svg"><img src="assets/tools-bottom-light.svg" width="100%" height="52" alt="Tools I work with: MySQL, PostgreSQL, Apache Spark (PySpark), Apache Hadoop, Google Cloud (BigQuery and Vertex AI), AWS (EC2, S3, and RDS), Microsoft Excel, Power BI, Tableau, Streamlit, Microsoft PowerPoint, Microsoft Word, FastAPI, Docker, Selenium, Git, Microsoft Copilot, Figma, Shopify Analytics, React, HTML, CSS, JavaScript"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/band-bottom-dark.svg"><img src="assets/band-bottom-light.svg" width="100%" height="52" alt="Tools I work with: MySQL, PostgreSQL, Apache Spark (PySpark), Apache Hadoop, Google Cloud (BigQuery and Vertex AI), AWS (EC2, S3, and RDS), Microsoft Excel, Power BI, Tableau, Streamlit, Microsoft PowerPoint, Microsoft Word, FastAPI, Docker, Selenium, Git, Microsoft Copilot, Figma, Shopify Analytics, React, HTML, CSS, JavaScript"></picture>
 </p>

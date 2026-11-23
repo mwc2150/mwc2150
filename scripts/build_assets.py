@@ -365,8 +365,8 @@ def main() -> None:
         for slug, code, name, period, delay, lift, tilt in PROJECTS:
             write(f"float-{slug}-{theme}.svg", floater(code, name, period, delay, lift, tilt, t))
         half = (len(TOOLS) + 1) // 2
-        write(f"tools-top-{theme}.svg", band(TOOLS[:half], theme, -1))
-        write(f"tools-bottom-{theme}.svg", band(TOOLS[half:], theme, 1))
+        write(f"band-top-{theme}.svg", band(TOOLS[:half], theme, -1))
+        write(f"band-bottom-{theme}.svg", band(TOOLS[half:], theme, 1))
 
 
 if __name__ == "__main__":
