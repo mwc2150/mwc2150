@@ -1,10 +1,10 @@
 """Build the SVGs used by the profile README.
 
 - The greeting, set in EB Garamond SemiBold.
-- The project picker: a "Pick one." prompt in EB Garamond Italic, then four
-  bare floating emoji, one per project, each linked to its repo in README.md.
-  No names or blurbs are shown, so the pick is a small mystery; the plain list
-  sits behind a "Spoilers" <details> in the README.
+- The project picker: a "Pick an emoji, any emoji." prompt in EB Garamond
+  Italic, then four bare floating emoji, one per project, each linked to its
+  repo in README.md. No names or blurbs are shown, so the pick is a small
+  mystery; the README gives each emoji a title, so hovering shows its name.
 
 Every SVG comes in a light and a dark variant (switched by <picture> in the
 README). Fonts are embedded as subset WOFF2 data URIs because SVGs shown as
@@ -190,8 +190,8 @@ def write(name: str, text: str) -> None:
 def main() -> None:
     ASSETS.mkdir(exist_ok=True)
     for theme, t in THEMES.items():
-        write(f"h-hello-{theme}.svg", heading("Hello, I’m Michael!", t))
-        write(f"pick-one-{theme}.svg", prompt("Pick one.", t))
+        write(f"h-hello-{theme}.svg", heading("Hello, I’m Michael ;)", t))
+        write(f"prompt-{theme}.svg", prompt("Pick an emoji, any emoji.", t))
         for slug, code, name, period, delay, lift, tilt in PROJECTS:
             write(f"float-{slug}-{theme}.svg", floater(code, name, period, delay, lift, tilt, t))
 
