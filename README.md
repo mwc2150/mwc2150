@@ -5,8 +5,8 @@
 
 <h3>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/h-hello-dark.svg">
-    <img src="assets/h-hello-light.svg" height="46" alt="Hello, I'm Michael ;)">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/greeting-dark.svg">
+    <img src="assets/greeting-light.svg" height="46" alt="Hello, I'm Michael ;)">
   </picture>
 </h3>
 

@@ -190,7 +190,7 @@ def write(name: str, text: str) -> None:
 def main() -> None:
     ASSETS.mkdir(exist_ok=True)
     for theme, t in THEMES.items():
-        write(f"h-hello-{theme}.svg", heading("Hello, I’m Michael ;)", t))
+        write(f"greeting-{theme}.svg", heading("Hello, I’m Michael ;)", t))
         write(f"prompt-{theme}.svg", prompt("Pick an emoji, any emoji.", t))
         for slug, code, name, period, delay, lift, tilt in PROJECTS:
             write(f"float-{slug}-{theme}.svg", floater(code, name, period, delay, lift, tilt, t))
