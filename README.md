@@ -19,11 +19,17 @@ Whether it's a role, a project in a completely new domain, or a simple coffee ch
 <br clear="right">
 
 <p align="center">
-  <a href="https://github.com/mwc2150/PharmAgentics"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-pharmagentics-dark.svg"><img src="assets/btn-pharmagentics-light.svg" width="400" height="84" alt="PharmAgentics: multi-agent AI for pharma brand performance"></picture></a>
-  <a href="https://github.com/Qual2Cast/Qual2Cast"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-qual2cast-dark.svg"><img src="assets/btn-qual2cast-light.svg" width="400" height="84" alt="Qual2Cast: valuing private companies via public comps"></picture></a>
-  <a href="https://github.com/bruno-neira/AI-Pulse"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-ai-pulse-dark.svg"><img src="assets/btn-ai-pulse-light.svg" width="400" height="84" alt="AI Pulse: compute, data and model trends behind AI"></picture></a>
-  <a href="https://github.com/jiayi-ong/optimized-llm-planning-memory"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-rl-planning-dark.svg"><img src="assets/btn-rl-planning-light.svg" width="400" height="84" alt="RL for LLM planning: PPO-trained memory for LLM planning agents"></picture></a>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pick-one-dark.svg"><img src="assets/pick-one-light.svg" height="34" alt="Pick one."></picture>
+  <br>
+  <a href="https://github.com/mwc2150/PharmAgentics"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/float-pharmagentics-dark.svg"><img src="assets/float-pharmagentics-light.svg" width="80" height="108" alt="PharmAgentics"></picture></a><a href="https://github.com/Qual2Cast/Qual2Cast"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/float-qual2cast-dark.svg"><img src="assets/float-qual2cast-light.svg" width="80" height="108" alt="Qual2Cast"></picture></a><a href="https://github.com/bruno-neira/AI-Pulse"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/float-ai-pulse-dark.svg"><img src="assets/float-ai-pulse-light.svg" width="80" height="108" alt="AI Pulse"></picture></a><a href="https://github.com/jiayi-ong/optimized-llm-planning-memory"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/float-rl-planning-dark.svg"><img src="assets/float-rl-planning-light.svg" width="80" height="108" alt="RL for LLM planning"></picture></a>
 </p>
+
+<div align="center">
+<details>
+<summary><sub>Spoilers</sub></summary>
+<sub>💊 <a href="https://github.com/mwc2150/PharmAgentics">PharmAgentics</a> &nbsp;·&nbsp; 💼 <a href="https://github.com/Qual2Cast/Qual2Cast">Qual2Cast</a> &nbsp;·&nbsp; 📡 <a href="https://github.com/bruno-neira/AI-Pulse">AI Pulse</a> &nbsp;·&nbsp; 🧠 <a href="https://github.com/jiayi-ong/optimized-llm-planning-memory">RL for LLM planning</a></sub>
+</details>
+</div>
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/python/python-original.svg" width="34" height="34" alt="Python" title="Python">&nbsp;
