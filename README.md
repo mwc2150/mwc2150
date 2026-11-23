@@ -6,11 +6,11 @@
 <h3>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/heading-dark.svg">
-    <img src="assets/heading-light.svg" height="46" alt="Hello, I'm Michael!">
+    <img src="assets/heading-light.svg" height="46" alt="Hello, I'm Michael. Thanks for stopping by!">
   </picture>
 </h3>
 
-Thanks for stopping by! My work lies where data science meets real business questions. Right now, that's in pharmaceutical commercial operations and private equity.
+My interests lie at the intersection between data science and business. Right now, I'm working on applications for private equity and pharmaceutical commercial operations.
 
 I have a Master's in Data Science from Columbia and a BA in International Relations (Global Business) from USC. In 2024, I also co-founded Rexi Self-Care, a holistic wellness startup based in LA.
 
