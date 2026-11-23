@@ -130,8 +130,9 @@ ICON_GAP = 18
 BAND_MAX_W = 1280  # widest box we cover without a gap in the loop
 BAND_SPEED = 20  # px per second
 
-# The greeting, one entry per line. Its SVG is hi-*.svg; rename it when the
-# text changes, or GitHub's image cache keeps showing the old one for a while.
+# The greeting, one entry per line. Its SVG is hi-*.svg; rename it (or the
+# prompt's pick-*.svg) when its text or color changes, or GitHub's image cache
+# keeps showing the old one for a while.
 GREETING = ["Hi, I’m Michael.", "Thanks for stopping by!"]
 
 # GitHub's own text colors, so everything sits natively in either theme.
@@ -362,7 +363,7 @@ def main() -> None:
     ASSETS.mkdir(exist_ok=True)
     for theme, t in THEMES.items():
         write(f"hi-{theme}.svg", heading(GREETING, t))
-        write(f"cta-{theme}.svg", prompt("Pick an emoji, any emoji ;)", t))
+        write(f"pick-{theme}.svg", prompt("Pick an emoji, any emoji ;)", t))
         for slug, code, name, period, delay, lift, tilt in PROJECTS:
             write(f"float-{slug}-{theme}.svg", floater(code, name, period, delay, lift, tilt, t))
         half = (len(TOOLS) + 1) // 2

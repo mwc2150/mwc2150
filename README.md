@@ -21,7 +21,7 @@ Whether it's a new role, a project in a wildly different domain, or a just simpl
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/cta-dark.svg"><img src="assets/cta-light.svg" height="34" alt="Pick an emoji, any emoji ;)"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pick-dark.svg"><img src="assets/pick-light.svg" height="34" alt="Pick an emoji, any emoji ;)"></picture>
   <br>
   <a href="https://github.com/mwc2150/PharmAgentics"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/float-pharmagentics-dark.svg"><img src="assets/float-pharmagentics-light.svg" width="80" height="108" alt="PharmAgentics" title="PharmAgentics"></picture></a><a href="https://github.com/Qual2Cast/Qual2Cast"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/float-qual2cast-dark.svg"><img src="assets/float-qual2cast-light.svg" width="80" height="108" alt="Qual2Cast" title="Qual2Cast"></picture></a><a href="https://github.com/bruno-neira/AI-Pulse"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/float-ai-pulse-dark.svg"><img src="assets/float-ai-pulse-light.svg" width="80" height="108" alt="AI Pulse" title="AI Pulse"></picture></a><a href="https://github.com/jiayi-ong/optimized-llm-planning-memory"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/float-rl-planning-dark.svg"><img src="assets/float-rl-planning-light.svg" width="80" height="108" alt="RL for LLM planning" title="RL for LLM planning"></picture></a>
 </p>
